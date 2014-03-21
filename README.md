@@ -8,6 +8,17 @@ By Boris Smus
 
 `<plugin name="WebIntent" value="com.borismus.webintent.WebIntent" />`
 
+
+## Adding the Plugin to your Phonegap Build project ##
+1. Add the plugin to your config.xml
+ 	'<gap:plugin name="net.tunts.webintent" />'
+
+2. Add a reference to webintent.js in your html. You don't need to copy any files.
+    '<script type="text/javascript" src="webintent.js"</script>'
+
+Upload the files to your phonegap build project. Phonegap build will recognize the plugin automatically.
+
+
 ## Using the plugin ##
 The plugin creates the object `window.plugins.webintent` with five methods:
 
